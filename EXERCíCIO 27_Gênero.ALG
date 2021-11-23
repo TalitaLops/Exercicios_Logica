@@ -1,21 +1,21 @@
-Algoritmo "Exercício 27_Gênero"
-// Disciplina : [Lógica de Programação e JavaScript]
+Algoritmo "ExercÃ­cio 27_GÃªnero"
+// Disciplina : [LÃ³gica de ProgramaÃ§Ã£o e JavaScript]
 // Professor : Jailson Costa dos Santos
-// Descrição :
+// DescriÃ§Ã£o :
 // Autor(a) : Talita Lopes
 // Data atual : 03/09/2021
 Var
-   // Seção de Declarações das variáveis
-   nome,sexo:caracter
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   nome,genero:caracter
    altura,pesoideal:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite o seu nome :")
    Leia(nome)
-   Escreval("Digite o seu sexo :")
-   Leia(sexo)
-   Escreval("Digite o seu altura :")
+   Escreval("Digite o seu gÃªnero :")
+   Leia(genero)
+   Escreval("Digite sua altura :")
    Leia(altura)
    se (sexo = "M") ou (sexo = "m") ou (sexo = "Masculino") ou (sexo = "masculino") entao
       pesoideal<-72.7*altura-58
